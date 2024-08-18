@@ -6,12 +6,7 @@
 			"image": "kolyad3v/discussr",
 			"hostname": "web",
 			"essential": true,
-			"portMappings": [
-				{
-					"hostPort": 80,
-					"containerPort": 80
-				}
-			]
+			"memory": 128
 		}
 	]
 }
